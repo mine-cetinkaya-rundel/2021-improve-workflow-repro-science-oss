@@ -28,6 +28,7 @@ library(patchwork)       # for laying out multiple plots
 
 In this report we evaluate the relationship between relationship between bill depth and flipper length of penguins.
 The data come from @gorman2014.
+And I love this dataset.
 
 ```{r}
 penguins_nongentoo <- penguins %>%
@@ -100,3 +101,4 @@ p3 <- ggplot(penguins, aes(x = body_mass_g, fill = species)) +
 ```
 
 ## References
+
